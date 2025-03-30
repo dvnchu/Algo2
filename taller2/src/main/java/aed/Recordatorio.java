@@ -37,7 +37,7 @@ public class Recordatorio {
             return false;
         }else{
             Recordatorio otroRecordatorio = (Recordatorio) otro;
-            return this.fecha == otroRecordatorio.fecha() && this.horario == otroRecordatorio.horario() && this.mensaje.equals(otroRecordatorio.mensaje());
+            return this.fecha.equals(otroRecordatorio.fecha()) && horario.equals(otroRecordatorio.horario())  && this.mensaje.equals(otroRecordatorio.mensaje());
         }
     }
 

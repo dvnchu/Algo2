@@ -19,15 +19,7 @@ public class Horario {
 
     @Override
     public String toString() {
-        String minutosString = "";
-        if(this.minutos < 10){
-            minutosString = "0" + this.minutos;
-        }else {
-            minutosString += this.minutos;
-        }
-
-       
-        return this.hora + ":" + minutosString;
+        return this.hora + ":" + this.minutos;
     }
 
     @Override

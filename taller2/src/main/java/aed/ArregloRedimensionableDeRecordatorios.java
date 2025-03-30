@@ -14,7 +14,7 @@ class ArregloRedimensionableDeRecordatorios {
    }
 
     public int longitud() {
-        int res = 0; 
+          int res = 0; 
         for (Recordatorio recordatorio : arregloDeRecordatorios) {
             res += 1;
         }
@@ -35,8 +35,8 @@ class ArregloRedimensionableDeRecordatorios {
         return res;
     }
 
-    public void quitarAtras() {
-        Recordatorio[] nuevoArreglo = new Recordatorio[arregloDeRecordatorios.length + - 1];
+   public void quitarAtras() {
+        Recordatorio[] nuevoArreglo = new Recordatorio[arregloDeRecordatorios.length  - 1];
         for (int i = 0; i < nuevoArreglo.length; i++) {
             nuevoArreglo[i] = arregloDeRecordatorios[i];
         }
@@ -44,15 +44,19 @@ class ArregloRedimensionableDeRecordatorios {
     }
 
     public void modificarPosicion(int indice, Recordatorio valor) {
-        
+      arregloDeRecordatorios[indice] = valor;
     }
 
     public ArregloRedimensionableDeRecordatorios(ArregloRedimensionableDeRecordatorios vector) {
-        // Implementar
+
+        Recordatorio[] arregloRecord = new Recordatorio[vector.arregloDeRecordatorios.length];
+        for (int i = 0; i < vector.arregloDeRecordatorios.length; i++) {
+            arregloRecord[i] = new Recordatorio(vector.obtener(i).mensaje(), vector.obtener(i).fecha(), vector.obtener(i).horario()); 
+        }
+        arregloDeRecordatorios = arregloRecord;
     }
 
     public ArregloRedimensionableDeRecordatorios copiar() {
-        // Implementar
-        return null;
+    return new ArregloRedimensionableDeRecordatorios(this);
     }
 }
