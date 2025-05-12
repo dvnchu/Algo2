@@ -1,0 +1,16 @@
+# Fdb version 4
+["pdflatex"] 1744314309.04097 "c:/Users/dculi/OneDrive/Escritorio/cufa/tex/test.tex" "test.pdf" "test" 1744314309.34378 0
+  "C:/Users/dculi/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1744314072 81068 299f700eb05b1217173e62b88b513bd0 ""
+  "C:/Users/dculi/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1743726733 24225045 19394b0036f41e3089d7a8eb4dc9ebbc ""
+  "C:/Users/dculi/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
+  "C:/Users/dculi/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1705273579 20144 147463a6a579f4597269ef9565205cfe ""
+  "C:/Users/dculi/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1705273578 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "C:/Users/dculi/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1704400941 30006 57b07afb710ee2f649c65cfbafda39c1 ""
+  "c:/Users/dculi/OneDrive/Escritorio/cufa/tex/test.tex" 1744314308 70 ec869fdf00e31195611319d7fdbb129d ""
+  "test.aux" 1744314309 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "test.tex" 1744314308 70 ec869fdf00e31195611319d7fdbb129d ""
+  (generated)
+  "test.aux"
+  "test.log"
+  "test.pdf"
+  (rewritten before read)
